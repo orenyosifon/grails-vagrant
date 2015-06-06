@@ -24,6 +24,12 @@ class must-have {
              "curl",
              "git-core",
              "unzip",
+             "python-pip",
+             "maven",
+             "xorg",
+             "xauth",
+             "openbox",
+             "gnome-terminal",
              "bash"]:
     ensure => present,
     require => Exec["apt-get update"],
