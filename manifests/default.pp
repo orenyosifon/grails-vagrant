@@ -29,6 +29,8 @@ class must-have {
              "xorg",
              "xauth",
              "openbox",
+             "mysql-server",
+             "rabbitmq-server",
              "gnome-terminal",
              "bash"]:
     ensure => present,
